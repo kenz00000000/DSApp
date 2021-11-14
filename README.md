@@ -1,6 +1,3 @@
-# DSApp ( Auto Turn Data Source into an Application )
-
-
 ## 主な機能
 
 ・アプリケーションHTML と データソースCSV をWebサーバ上の任意のディレクトリに配置することで
