@@ -554,7 +554,7 @@
 
 								// 検索ボタンを出力 //
 								form += "<div class=\"buttons\">\n";
-								form += "<input type=\"button\" value=\"クリア\" onClick=\"location.href=\'./\'\">\n";
+								form += "<input type=\"button\" value=\"クリア\" onClick=\"location.href=\'./index.aspx\'\">\n";
 								form += "<input type=\"submit\" value=\"検索\">\n";
 								form += "</div>\n";
 
@@ -799,7 +799,7 @@
 										if( display_rows.includes( i ) == true ) // display_rows 配列変数の値が '1' ( true ) の場合
 										{
 											data += "<tr id=\"row-" + number + "\">\n";
-											data += "<td class=\"col-detail\"><input type=\"button\" value=\"詳細表示\" onClick=\"location.href=\'?rid=" + columns[ i ][ 0 ] + "\'\"></td>\n";
+											data += "<td class=\"col-detail\"><input type=\"button\" value=\"詳細表示\" onClick=\"location.href=\'./index.aspx?rid=" + columns[ i ][ 0 ] + "\'\"></td>\n";
 											data += "<td class=\"col-no\">" + number + "</td>\n"; // "No." ( 項番 ) カラム
 
 											for( var j = 0; j < columns[ 0 ].length; j ++ ) // 列毎の処理
@@ -838,7 +838,7 @@
 										var nowScrollTop = $( 'html, body' ).scrollTop(); // 現在のスクロールポジション値を取得
 										if( nowScrollTop > 300 ) // スクロールポジション値が 1000px 以上の場合
 										{
-											$( '#to-top' ).show().html( "<a id=\"page-top-btn\" class=\"clickable\" href=\"./#header\">↑ ページトップへ</a>\n" ); //「 ↑ ページトップへ 」ボタンを表示
+											$( '#to-top' ).show().html( "<a id=\"page-top-btn\" class=\"clickable\" href=\"./index.aspx#header\">↑ ページトップへ</a>\n" ); //「 ↑ ページトップへ 」ボタンを表示
 										}
 										else
 										{
@@ -861,7 +861,7 @@
 
 										if( peging_link_num < dis_row_count ) // 表示必要のある数値以上は非表示
 										{
-											paging += "<li><a id=\"peg-row-" + peging_link_num + "\" class=\"clickable\" href=\"?row=" + peging_link_num + "\" title=\"" + peging_link_num + "\">" + peging_link_num + "</a></li>\n";
+											paging += "<li><a id=\"peg-row-" + peging_link_num + "\" class=\"clickable\" href=\"./index.aspx?row=" + peging_link_num + "\" title=\"" + peging_link_num + "\">" + peging_link_num + "</a></li>\n";
 										}
 									}
 
@@ -907,11 +907,11 @@
 	<body>
 		<div id="container">
 			<header id="header">
-				<h1 id="app-title"><a class="clickable" href="./"></a></h1>
+				<h1 id="app-title"><a class="clickable" href="./index.aspx"></a></h1>
 				<h2 id="app-sub-title"></h2>
 			</header><!--// #header -->
 			<div id="content">
-				<form id="form" method="get" action="./"></form><!--// #form -->
+				<form id="form" method="get" action="./index.aspx"></form><!--// #form -->
 				<div id="data"></div><!--// #data -->
 			</div><!--// #content -->
 			<footer id="footer">
