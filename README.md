@@ -28,4 +28,4 @@
 
 ## マニュアル
 
-https://docs.google.com/presentation/d/1pk0JZtqEH2xELLv9wPYGF-5DHnzd-95m88CNCeVYSQU/edit?usp=sharing
+https://drive.google.com/file/d/1Acl2cirEHz4WQEk4J9CCxIoRc0eh6-LS/view?usp=sharing
