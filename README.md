@@ -19,8 +19,10 @@
 
 ## 補足
 
-「 index.html 」は Webサーバ 設置用。<br>
-「 index.aspx 」は Office365 / OneDrive 設置用。
+「 index.html 」は Webサーバ 設置用、<br>
+「 index.aspx 」は Office365 / OneDrive 設置用で<br>
+共に機能としては同じもの。
+
 
 
 ## マニュアル
