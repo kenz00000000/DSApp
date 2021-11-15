@@ -15,6 +15,12 @@
 ・任意で設定した数値でのページング毎の表示件数を指定可
 
 
+## 補足
+
+「 index.html 」は Webサーバ 設置用。
+「 index.aspx 」は Office365 / OneDrive 設置用。
+
+
 ## マニュアル
 
 https://docs.google.com/presentation/d/1pk0JZtqEH2xELLv9wPYGF-5DHnzd-95m88CNCeVYSQU/edit?usp=sharing
